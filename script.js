@@ -84,7 +84,7 @@ let workDay = {
   
     saveToLocalStorage(workHours);
   }
-  
+
   function updateCalendarTasks(dayObject) {
     $(".calendar-row").each(function(index) {
       let res = $(this).children("div");
